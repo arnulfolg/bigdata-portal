@@ -1,0 +1,11 @@
+.example-card {
+	text-align: center;
+
+	mat-icon {
+		font-size: 3rem;
+		color: green
+	}
+	&:hover {
+		cursor: pointer;
+	}
+}

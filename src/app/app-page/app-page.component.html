@@ -1,0 +1,27 @@
+<h1>App: {{ appName }}</h1>
+
+<section>
+	<h2>Global Performance</h2>
+	<google-chart [type]="chartType" [data]="chartData" style="width: 100%;"></google-chart>
+</section>
+
+<section>
+	
+	<mat-accordion class="example-headers-align" multi>
+  <mat-expansion-panel>
+    <mat-expansion-panel-header>
+      <mat-panel-title>
+        See all racks
+      </mat-panel-title>
+      <mat-panel-description>
+        Click to expand view
+      </mat-panel-description>
+    </mat-expansion-panel-header>
+<app-rack></app-rack>
+
+
+
+  </mat-expansion-panel>
+
+</mat-accordion>
+</section>

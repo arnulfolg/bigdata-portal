@@ -1,0 +1,5 @@
+<section class="apps-grid">
+	<app-card
+		*ngFor="let app of appServers"
+	[title]="app.name" [icon]="app.icon" [routerLink]="['/app/', app.name]"></app-card>
+</section>

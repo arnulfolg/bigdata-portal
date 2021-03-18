@@ -1,0 +1,6 @@
+<h3>Click any server to see its performance</h3>
+
+<section class="server_rack">
+	<app-server *ngFor="let server of serverRack" [name]="server.name" [color]="server.color"></app-server>
+</section>
+
